@@ -1,4 +1,4 @@
-# In this file I can write my last program of the internship in the company PRODIGY INFOTECH.
+# In this file I can write my last program of the internship in the company PRODIGY INFOTECH. I'm thankful for Prodigy infotech to give me this opportunity.
 #But this is not my last program of my life. I will continue to write programs in my life.
 import os
 
